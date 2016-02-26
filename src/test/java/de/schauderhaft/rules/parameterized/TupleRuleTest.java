@@ -9,7 +9,7 @@ import org.junit.Test;
 public class TupleRuleTest {
     @Rule
     public Generator<Tuple2<Integer, Integer>> generator = GeneratorFactory
-            .tuples(asList(84, 42, 120), asList(7, 2, 3));
+            .tuples(asList(84, 42, 120), asList(1, 2, 3));
 
     @Test
     public void allGivenNumbersAreX() {
