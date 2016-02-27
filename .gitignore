@@ -3,3 +3,6 @@
 .settings
 bin/
 lib/
+target
+*.iml
+.idea
