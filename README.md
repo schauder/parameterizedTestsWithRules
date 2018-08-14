@@ -3,7 +3,7 @@ Parameterized Tests With Rules
 
 Demos how parameterized test can be implemented using JUnit Rules without a custom TestRunner.
 
-You can define Generators for creating all the parameters to use for the the tests. 
+You can define Generators for creating all the parameters to use for the tests. 
 
 Inside the test you can access the current value of the parameter using the value() method of the rule.
 
